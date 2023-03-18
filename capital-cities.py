@@ -11,7 +11,7 @@ def get_capital(country_name):
     else:
         return None
 
-# Example usage:
+#  this is an Example usage:
 country_name = "France"
 capital = get_capital(country_name)
 if capital:
