@@ -6,7 +6,7 @@ def get_capital(country_name):
     response = requests.get(url)
     if response.status_code == 200:
         data = response.json()
-         = data[0]['capital']
+        capital = data[0]['capital']
         return capital
     else:
         return None
