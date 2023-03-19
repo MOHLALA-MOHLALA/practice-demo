@@ -11,7 +11,7 @@ def scan_file(filename):
     else:
         return False
 
-# main program loop
+# main  program loop
 while True:
     print("Virus Scanner")
     print("1. Scan a file")
@@ -32,3 +32,4 @@ while True:
     else:
         print("Invalid choice")
 
+# end of  program 

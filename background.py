@@ -14,3 +14,6 @@ masked_img = cv2.bitwise_and(img, img, mask=mask)
 
 # Save the output image
 cv2.imwrite("output.jpg", masked_img)
+
+
+# end of program
